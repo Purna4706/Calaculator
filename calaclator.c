@@ -75,11 +75,14 @@ int main() {
                 scanf("%f", &num1);
                 inverse(num1);
                 break;
+             
+	
 
             case 8:
                 printf("Exiting the program.\n");
                 return 0;
-
+               
+	    
             default:
                 printf("Invalid choice! Please try again.\n");
         }
@@ -117,6 +120,8 @@ void square(float a) {
 void cube(float a) {
     printf("Cube of %.2f = %.2f\n", a, a * a * a);
 }
+void quadraple(float a) {
+	printf("quadraple of %.2f = %.2f\n",a,a*a*a*a);
 
 // Function to calculate the inverse of a number
 void inverse(float a) {
